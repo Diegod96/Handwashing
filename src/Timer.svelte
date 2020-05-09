@@ -2,7 +2,7 @@
     import { createEventDispatcher } from "svelte";
     import ProgressBar from "./ProgressBar.svelte";
 
-    const totalSeconds = 3;
+    const totalSeconds = 20;
     let secondsLeft = totalSeconds;
     let isRunning = false;
     $: progress = ((totalSeconds - secondsLeft) / totalSeconds) * 100;
@@ -29,8 +29,10 @@
         margin: 0;
     }
     .start {
-        background-color: rgb(154, 73, 73);
+        background-color: darkseagreen;
         width: 100%;
+        font-size: large;
+        font-weight: bold;
         margin: 10px 0;
     }
     .start[disabled] {
