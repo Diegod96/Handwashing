@@ -22,8 +22,9 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="https://master.d30wuvfk5j97tx.amplifyapp.com/">Covid-19 Global Dashboard <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="https://hardcore-ramanujan-a1457f.netlify.app/">Covid-19 US Dashboard</a>
             <a class="nav-item nav-link" href="https://covid-flask.herokuapp.com/">Covid-19 Probability Detector</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
+
         </div>
     </div>
 </nav>
